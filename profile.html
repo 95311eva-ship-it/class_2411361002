@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">            <!-- 使用 meta 設定編碼 UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>個人簡介 — 玟僑</title>      <!-- title -->
+  <!-- 範例：連結外部樣式表 (示範 <link>) -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- 內嵌樣式 (示範 <style>) -->
+  <style>
+    /* 基本排版 */
+    body {
+      font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #fafafa;
+      color: #222;
+    }
+
+    /* 包裹整體內容的容器 */
+    #profile-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    /* 主標題為藍色 */
+    h1 {
+      color: #1e6ef5; /* 藍色 */
+      margin-bottom: 8px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 18px 0;
+    }
+
+    .contact a {
+      color: #1e6ef5;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="profile-container">
+    <!-- 名稱（h1，呈藍色） -->
+    <h1>玟僑 陳</h1>
+
+    <!-- 兩段自我介紹 -->
+    <p>
+      我是一名熱愛學習與設計的學生，對網頁技術與視覺設計有濃厚興趣。喜歡將想法用簡潔且美觀的方式呈現給使用者。
+    </p>
+
+    <p>
+      我的專長包含 HTML、CSS 與簡單的 JavaScript。平常喜歡閱讀、攝影與嘗試新工具，目標是成為一位能兼顧使用性與美感的前端工程師。
+    </p>
+
+    <hr>
+
+    <!-- 聯絡資訊（含 mailto 超連結） -->
+    <div class="contact">
+      <strong>聯絡方式：</strong>
+      <p>Email: <a href="mailto:example@email.com?subject=您好">example@email.com</a></p>
+
+      <!-- 一般超連結範例 -->
+      <p>作品集：<a href="https://www.example.com" target="_blank" rel="noopener">前往我的作品集</a></p>
+    </div>
+  </div>
+</body>
+</html>
+  
