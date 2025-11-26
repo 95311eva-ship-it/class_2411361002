@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <mata charset="utf-8">
-    <tittle>我的網頁<tittle>
-  </head>
-  <body>
-  <form method="post" action="api.php">
-    <p>姓名:<input type="text" name="userName" size="20"></p>
-    <p>密碼:<input type="password" name="userPWD" size="20"></p>
-    <input type="submit" value="提交">
-      <input type="reset" value="重新輸入">
-  </form>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>練習題</title>
+</head>
+
+<body>
+  <ul>
+    <li>金庸作品<li>
+    <ol type-"A">
+      <li>射鵰英雄傳</li>
+      <li>天龍八部</li>
+      <li>倚天屠龍記</li>
+      <li>笑傲江湖</li>
+      <li>鹿鼎記</li>
+    </ol>
+    <li>黃易作品</li>
+    <ol type-"1">
+      <li>尋秦記</li>
+      <li>封神記</li>
+      <li>日月當空</li>
+      <li>雲夢城之謎</li>
+    </ul>
+  </ul>
+</body>
+
 </html>
