@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #4A90E2;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #357ABD;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #4A90E2;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>聯絡我們</h1>
+    </header>
+
+    <main>
+        <h2>請留下您的回饋</h2>
+        <form action="https://formspree.io/f/your_form_id" method="POST">
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required>
+
+            <label for="email">電子郵件</label>
+            <input type="email" id="email" name="email" placeholder="請輸入您的電子郵件" required>
+
+            <label for="message">訊息</label>
+            <textarea id="message" name="message" rows="6" placeholder="請輸入您的意見或建議" required></textarea>
+
+            <button type="submit">送出回饋</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 陳玟僑</p>
+    </footer>
+</body>
+</html>
 
