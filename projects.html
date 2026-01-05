@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>課程心得與反思</title>
-    
-    <!-- 將 CSS 合併到這裡 -->
     <style>
-        /* 全局樣式 */
         body {
             font-family: "Microsoft JhengHei", sans-serif;
             margin: 0;
@@ -16,7 +13,6 @@
             color: #333;
         }
 
-        /* 標題 */
         header {
             background-color: #4A90E2;
             color: white;
@@ -28,25 +24,32 @@
             margin: 0 0 10px 0;
         }
 
-        /* 主要內容區 */
         main {
-            max-width: 800px;
+            max-width: 900px;
             margin: 30px auto;
             padding: 20px;
+        }
+
+        section {
             background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
             border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
+        .problem {
             margin-bottom: 15px;
+            padding: 10px 15px;
+            border-left: 5px solid #4A90E2;
+            background-color: #f0f8ff;
         }
 
-        /* 頁尾 */
+        .problem strong {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
         footer {
             text-align: center;
             padding: 15px 0;
@@ -64,31 +67,36 @@
     <main>
         <section id="reflection">
             <h2>心得與反思</h2>
-            <p>在這門課程中，我學到了網頁設計的基本架構、HTML、CSS 的應用，以及如何規劃網頁內容。我發現透過實作專案，可以更深刻理解理論知識。</p>
+            <p>這門網頁設計課程讓我學到 HTML 跟 CSS 的基本操作，也知道怎麼規劃網頁版面。做專案的時候，有些排版或連結會出問題，但我透過查資料和試不同方法慢慢解決，過程雖然有點挫折，但很有成就感。現在做網頁感覺更順手，也對設計網頁更有興趣了。</p>
         </section>
 
         <section id="problems">
             <h2>課程中遇到的問題及解決方法</h2>
-            <ul>
-                <li>
-                    <strong>問題：</strong>不熟悉 CSS 排版，頁面元素容易亂掉。  
-                    <strong>解決方法：</strong>參考網路教學，學習 Flexbox 與 Grid 排版方式。
-                </li>
-                <li>
-                    <strong>問題：</strong>連結跳轉錯誤。  
-                    <strong>解決方法：</strong>檢查檔案路徑與大小寫，確保路徑正確。
-                </li>
-                <li>
-                    <strong>問題：</strong>圖片載入失敗。  
-                    <strong>解決方法：</strong>確認圖片存放位置與檔名一致，並使用相對路徑。
-                </li>
-            </ul>
+            
+            <div class="problem">
+                <strong>問題：</strong>CSS 排版常常亂掉，元素不會對齊，整個頁面看起來很亂。 <br>
+                <strong>解決方法：</strong>我先試了好幾種方法都不行，後來上網查教學，學會之後排版就順多了，也懂得怎麼控制元素的對齊跟間距。
+            </div>
+
+            <div class="problem">
+                <strong>問題：</strong>做連結時，點了卻跳不到指定頁面，網頁顯示「找不到檔案」。 <br>
+                <strong>解決方法：</strong>我仔細檢查了檔案名稱跟路徑，發現大小寫或資料夾位置錯了。改正之後，連結就可以正常跳轉，也學到要注意路徑的正確性。
+            </div>
+
+            <div class="problem">
+                <strong>問題：</strong>圖片經常載不出來，或者顯示破圖。 <br>
+                <strong>解決方法：</strong>我檢查了圖片存放的資料夾、檔名，還有 HTML 裡使用的相對路徑。修正後圖片就正常顯示了，也知道了管理檔案路徑的重要性。
+            </div>
+
+            <div class="problem">
+                <strong>問題：</strong>剛開始學 HTML 時，不知道標籤要怎麼搭配，內容排版亂七八糟。 <br>
+                <strong>解決方法：</strong>我多看了網路範例，也慢慢試不同標籤搭配，慢慢就懂了結構和語法，網頁看起來整齊很多，也對 HTML 有更多自信。
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2411361002 陳玟僑</p>
+        <p>© 2026 陳玟僑</p>
     </footer>
 </body>
 </html>
-
